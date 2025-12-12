@@ -19,7 +19,7 @@ export function Left(){
               height={200}
             />
           </div>
-          <h1 className="text-2xl px-1 font-semibold text-shadow-amber-50">
+          <h1 className="text-[24px] px-1 font-semibold text-shadow-amber-50">
             Hello I'm <br /> Sagar Biradar
           </h1>
           <p className="text-md px-1">

@@ -135,7 +135,7 @@ export const socialLinks = [
 
 export const experience = [
   {
-    company: "Xyz",
+    title: "Xyz",
     role: "Frontend developer",
     date: "Des-2024-Mar-25",
     logo: "React.svg",
@@ -143,7 +143,7 @@ export const experience = [
       "Spearheaded the development of scalable web solutions, optimizing user experience for SaaS platforms. Led a team in crafting responsive, high-performing web interfaces using modern frameworks.",
   },
   {
-    company: "Abc",
+    title: "Abc",
     role: "Frontend developer",
     date: "Des-2024-Mar-25",
     logo: "React.svg",
@@ -158,31 +158,78 @@ export const projects = [
     image: "/images/profile.avif",
     link: "https://github.com/Sagar-006",
     github: "https://github.com/Sagar-006",
-    description: "A sleek and responsive landing page designed for modern startups to showcase their products effectively.",
-    technologies: [<Github />, <Mail />, <X />],
+    description:
+      "A sleek and responsive landing page designed for modern startups to showcase their products effectively.",
+    technologies: [
+      "React.svg",
+      "tailwind.svg",
+      "ts.svg",
+      "nodejs-icon.svg",
+      "mongo.svg",
+    ],
   },
   {
     projectname: "Nex-Store",
     image: "/images/profile.avif",
     link: "https://github.com/Sagar-006",
     github: "https://github.com/Sagar-006",
-    description: "A sleek and responsive landing page designed for modern startups to showcase their products effectively.",
-    technologies: [<Github />, <Mail />, <X />],
+    description:
+      "A sleek and responsive landing page designed for modern startups to showcase their products effectively.",
+    technologies: [
+      "React.svg",
+      "tailwind.svg",
+      "ts.svg",
+      "nodejs-icon.svg",
+      "mongo.svg",
+    ],
   },
   {
     projectname: "Nex-Store",
     image: "/images/profile.avif",
     link: "https://github.com/Sagar-006",
     github: "https://github.com/Sagar-006",
-    description: "A sleek and responsive landing page designed for modern startups to showcase their products effectively.",
-    technologies: [<Github className="w-5 h-5"/>, <Mail />, <X />,],
+    description:
+      "A sleek and responsive landing page designed for modern startups to showcase their products effectively.",
+    technologies: [
+      "React.svg",
+      "tailwind.svg",
+      "ts.svg",
+      "nodejs-icon.svg",
+      "mongo.svg",
+    ],
   },
   {
     projectname: "Nex-Store",
     image: "/images/profile.avif",
     link: "https://github.com/Sagar-006",
     github: "https://github.com/Sagar-006",
-    description: "A dynamic, animation-focused landing page highlighting creative transitions and interactive elements.",
-    technologies: [<Github />, <Mail />, <X />],
+    description:
+      "A dynamic, animation-focused landing page highlighting creative transitions and interactive elements.",
+    technologies: [
+      "React.svg",
+      "tailwind.svg",
+      "ts.svg",
+      "nodejs-icon.svg",
+      "mongo.svg",
+    ],
+  },
+];
+
+export const education = [
+  {
+    title: "SRTMUN",
+    role: "Bachelor of computer application",
+    date: "Des-2024-Mar-25",
+    logo: "React.svg",
+    description:
+      "Spearheaded the development of scalable web solutions, optimizing user experience for SaaS platforms. Led a team in crafting responsive, high-performing web interfaces using modern frameworks.",
+  },
+  {
+    title: "SPPU",
+    role: "Master of computer application",
+    date: "Des-2024-Mar-25",
+    logo: "React.svg",
+    description:
+      "Spearheaded the development of scalable web solutions, optimizing user experience for SaaS platforms. Led a team in crafting responsive, high-performing web interfaces using modern frameworks.",
   },
 ];

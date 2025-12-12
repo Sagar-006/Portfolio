@@ -3,6 +3,7 @@ import { TechStack } from "../Landing/TechStack";
 import { Skills } from "../Landing/Skills";
 import { Experience } from "../Landing/Experience";
 import Projects from "../Landing/Projects";
+import { Education } from "../Landing/Education";
 
 export function Right (){
     return (
@@ -14,6 +15,7 @@ export function Right (){
           <Experience />
           <TechStack />
           <Projects/>
+          <Education/>
           
         </div>
       </div>

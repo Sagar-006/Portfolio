@@ -11,7 +11,7 @@ type projectData = {
   link: string;
   github: string;
   description: string;
-  technologies: React.ReactNode[];
+  technologies: string[];
 };
 
 export function ProjectCard({ projectData }: { projectData: projectData }) {
@@ -33,7 +33,7 @@ export function ProjectCard({ projectData }: { projectData: projectData }) {
 
         {/* TEXT */}
         <div className="flex border  items-center justify-between">
-          <h1 className="font-semibold text-black">
+          <h1 className="font-semibold text-[20px] text-black">
             {projectData.projectname}
           </h1>
           <div className="flex gap-x-2 mr-4">
@@ -45,7 +45,9 @@ export function ProjectCard({ projectData }: { projectData: projectData }) {
             </Link>
           </div>
         </div>
-        <p className="text-sm text-gray-600">{projectData.description}</p>
+        <p className="text-[16px] tracking-tight leading-tight text-gray-600">
+          {projectData.description}
+        </p>
 
         {/* <Link href={projectData.link} className="flex">
           <Heading className="px-3 border flex items-center gap-x-2 border-gray-300 py-0.5 text-sm text-gray-700">
@@ -54,12 +56,18 @@ export function ProjectCard({ projectData }: { projectData: projectData }) {
         </Link> */}
 
         {/* TECHNOLOGIES */}
-        <div>
-          <p className="text-sm text-gray-600">Technologies</p>
+        <div className="flex flex-col gap-y-2">
+          <p className="text-[14px] text-gray-600">Technologies</p>
 
-          <div className="flex gap-2">
+          <div className="flex gap-x-4">
             {projectData.technologies.map((TechIcon, index) => (
-              <span key={index}>{TechIcon}</span>
+              <Image
+                key={index}
+                src={TechIcon}
+                alt="Tech icon"
+                width={24}
+                height={24}
+              />
             ))}
           </div>
         </div>

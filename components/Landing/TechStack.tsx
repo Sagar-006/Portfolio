@@ -12,7 +12,7 @@ export function TechStack() {
       <div className=" flex justify-between ">
         <Image src="/nextjs.svg" alt="React" width={40} height={40} />
         <Image src="/tailwind.svg" alt="React" width={40} height={40} />
-        <Image src="/images/TS.png" alt="React" width={40} height={40} />
+        <Image src="/TS.png" alt="React" width={40} height={40} />
         <Image src="/postgresql.svg" alt="React" width={40} height={40} />
         <Image src="/Figma-logo.svg" alt="React" width={25} height={25} />
         <Image src="/nodejs-icon.svg" alt="React" width={40} height={40} />
