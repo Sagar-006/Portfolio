@@ -228,7 +228,7 @@ export const education = [
     title: "SPPU",
     role: "Master of computer application",
     date: "Des-2024-Mar-25",
-    logo: "React.svg",
+    logo: "nextjs.svg",
     description:
       "Spearheaded the development of scalable web solutions, optimizing user experience for SaaS platforms. Led a team in crafting responsive, high-performing web interfaces using modern frameworks.",
   },
