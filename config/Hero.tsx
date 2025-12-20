@@ -119,20 +119,12 @@ export const socialLinks = [
 
 export const experience = [
   {
-    title: "Xyz",
-    role: "Frontend developer",
-    date: "Des-2024-Mar-25",
-    logo: "React.svg",
+    title: "Maestro Intellect",
+    role: "Full-Stack-Intern",
+    date: "Jan 2025 - Apr 2025",
+    logo: "/Ex_logo.avif",
     description:
-      "Spearheaded the development of scalable web solutions, optimizing user experience for SaaS platforms. Led a team in crafting responsive, high-performing web interfaces using modern frameworks.",
-  },
-  {
-    title: "Abc",
-    role: "Frontend developer",
-    date: "Des-2024-Mar-25",
-    logo: "React.svg",
-    description:
-      "Spearheaded the development of scalable web solutions, optimizing user experience for SaaS platforms. Led a team in crafting responsive, high-performing web interfaces using modern frameworks.",
+      "Worked on MERN stack projects involving frontend development, backend APIs, and database integration. Gained hands-on experience in building responsive web interfaces and implementing core full-stack functionalities.",
   },
 ];
 
@@ -206,7 +198,7 @@ export const education = [
     date: "July 20 - May-23",
     logo: "/SRTMUN.png",
     description:
-      "Spearheaded the development of scalable web solutions, optimizing user experience for SaaS platforms. Led a team in crafting responsive, high-performing web interfaces using modern frameworks.",
+      "During my BCA (2020–2023), I built a strong foundation in computer applications and software development. I gained hands-on experience in programming, database management, and web technologies, which sparked my interest in full-stack development and building real-world applications.",
   },
   {
     title: "Savitribai Phule Pune University",
@@ -214,7 +206,7 @@ export const education = [
     date: "Aug 23 - June-25",
     logo: "/SPPU03.png",
     description:
-      "Spearheaded the development of scalable web solutions, optimizing user experience for SaaS platforms. Led a team in crafting responsive, high-performing web interfaces using modern frameworks.",
+      "During my BCA (2020–2023), I built a strong foundation in computer applications and software development. I gained hands-on experience in programming, database management, and web technologies, which sparked my interest in full-stack development and building real-world applications.",
   },
 ];
 
@@ -253,17 +245,20 @@ export const social = [
   {
     name: "X",
     logo: <FaXTwitter className="w-7 h-7 text-black dark:text-white" />,
-    link: "https://github.com/Sagar-006",
+    link: "https://x.com/Mr_Sagar45",
   },
-  {
-    name: "G-Mail",
-    logo: <IoMail className="object-cover w-7 h-7 text-black dark:text-white" />,
-    link: "https://github.com",
-  },
+
   {
     name: "Linkedin",
     logo: <IoLogoLinkedin className="w-7 h-7 text-black dark:text-white" />,
-    link: "https://github.com/Sagar-006",
+    link: "https://www.linkedin.com/in/sagarbiradar1234/",
+  },
+  {
+    name: "G-Mail",
+    logo: (
+      <IoMail className="object-cover w-7 h-7 text-black dark:text-white" />
+    ),
+    link: "mailto:sagarbiradar7030@gmail.com",
   },
   {
     name: "Discord",
@@ -286,10 +281,10 @@ export const skills = [
     title: "Full-stack development",
   },
   {
-    title: "Copywriting",
+    title: "REST APIS",
   },
   {
-    title: "Marketing",
+    title: "Next.js",
   },
 ];
 

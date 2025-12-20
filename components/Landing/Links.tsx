@@ -22,7 +22,9 @@ export function Links() {
             onMouseLeave={() => setActiveName("LINKS")}
             className="cursor-pointer  bg-white  text-black dark:bg-black dark:text-white border-gray-200 dark:border-gray-800   w-[58px] flex items-center justify-center p-4 border rounded-md transition-transform duration-100  duration-300 ease-out hover:scale-110 hover:border-gray-300 dark:hover:border-gray-600"
           >
-            <Link href={l.link}>{l.logo}</Link>
+            <Link target="_blank" rel="noopener noreferrer" href={l.link}>
+              {l.logo}
+            </Link>
           </div>
         ))}
       </div>

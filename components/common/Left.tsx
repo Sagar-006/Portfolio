@@ -59,7 +59,7 @@ export function Left(){
           <div className="flex flex-col items-center  ">
             <Button
               variant={"default"}
-              className="bg-white border text-black dark:bg-black dark:text-white border-gray-200 dark:border-gray-800 cursor-pointer w-46"
+              className="bg-white hover:bg-white border text-black dark:bg-black dark:text-white border-gray-200 dark:border-gray-800 cursor-pointer w-46"
               size={"lg"}
             >
               Download CV
