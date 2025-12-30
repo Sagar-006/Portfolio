@@ -136,7 +136,7 @@ export const projects = [
     github: "https://github.com/Sagar-006/muzer",
     description:
       "A sleek and responsive landing page designed for modern startups to showcase their products effectively.",
-    technologies: ["nextjs.svg", "tailwind.svg", "ts.svg", "postgresql.svg"],
+    technologies: ["nextjs-light.svg", "tailwind.svg", "ts.svg", "postgresql.svg"],
   },
   {
     projectname: "Nex-Store",
@@ -282,30 +282,41 @@ export const skills = [
   },
 ];
 
-export const techstack = [
+type techStackItem = {
+  name:string,
+  light:string,
+  dark:string,
+}
+export const techstack: techStackItem[] = [
   {
     name: "Nextjs",
-    src: "/nextjs.svg",
+    light: "/nextjs-light.svg",
+    dark: "/nextjs-light.svg",
   },
   {
     name: "Tailwind",
-    src: "/tailwind.svg",
+    light: "/tailwind.svg",
+    dark: "/tailwind.svg",
   },
   {
     name: "Ts",
-    src: "/TS.png",
+    light: "/Ts.png",
+    dark: "/Ts.png",
   },
   {
     name: "Postgresql",
-    src: "/postgresql.svg",
+    light: "/postgresql.svg",
+    dark: "/postgresql.svg",
   },
   {
     name: "figma",
-    src: "/Figma-logo.svg",
+    light: "/Figma-logo.svg",
+    dark: "/Figma-logo.svg",
   },
   {
     name: "nodejs",
-    src: "/nodejs-icon.svg",
+    light: "/nodejs-icon.svg",
+    dark: "/nodejs-icon.svg",
   },
 ];
   
