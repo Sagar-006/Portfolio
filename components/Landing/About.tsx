@@ -16,7 +16,7 @@ export function About() {
       </div>
 
       <p className="  text-black dark:bg-black dark:text-white  text-[16px] ">
-        Hi,I'm Sagar Biradar, a Full Stack Web Developer &. I build interactive
+        Hi,I'm Sagar Biradar, a Full Stack Web Developer . I build interactive
         web appliactions Using Typescript, React, NextJs and PostgreSQl, focusing on
         clean code, responsive design, and seamless user experiences.
       </p>

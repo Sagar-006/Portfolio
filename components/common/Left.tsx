@@ -20,7 +20,7 @@ export function Left() {
             <Image
               className="rounded-lg object-cover  w-[126px] h-[154px]
       md:w-[200px] md:h-[200px]"
-              src={"/images/profile.avif"}
+              src={"/Profile2.jpeg"}
               alt="Profile"
               width={200}
               height={200}

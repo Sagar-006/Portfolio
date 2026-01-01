@@ -5,7 +5,6 @@ import { Input } from "@/components/Ui/input";
 import { Textarea } from "@/components/Ui/textarea";
 import { Send } from "lucide-react";
 import { useState } from "react";
-// import { toast } from "sonner";
 
 export  function Cpage() {
   const [loading, setLoading] = useState<boolean>(false);

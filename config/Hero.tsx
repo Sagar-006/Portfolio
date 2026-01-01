@@ -1,37 +1,10 @@
-/*
- * CUSTOMIZATION EXAMPLE
- *
- * Want to customize this portfolio for yourself? Here's how easy it is:
- *
- * 1. Update your personal info:
- *    name: "Your Name"
- *    title: "Your Professional Title"
- *    avatar: "/path/to/your/image.jpg"
- *
- * 2. Add your skills:
- *    skills: [
- *      { name: "Python", href: "https://python.org", component: "Python" }, // Note: You'd need to create Python component
- *      { name: "React", href: "https://react.dev", component: "ReactIcon" },
- *      { name: "Node.js", href: "https://nodejs.org", component: "NodeJs" },
- *    ]
- *
- * 3. Write your description using the template:
- *    template: "I'm a **passionate developer** who loves building apps with {skills:0} and {skills:1}. I specialize in **web development** and enjoy working with {skills:2}."
- *
- * 4. Update your social links:
- *    Just change the href values to your own social media profiles
- *
- * That's it! Your portfolio will automatically update with your information.
- */
 import Github from "@/components/svgs/Github";
-// import LinkedIn from "@/components/svgs/LinkedIn";
 import Mail from "@/components/svgs/Mail";
 import X from "@/components/svgs/X";
 import { IoLogoGithub } from "react-icons/io";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { IoMail } from "react-icons/io5";
-import { RiNextjsFill } from "react-icons/ri";
 import { FaDiscord } from "react-icons/fa";
 
 
@@ -131,31 +104,20 @@ export const experience = [
 export const projects = [
   {
     projectname: "Muzer",
-    image: "/images/profile.avif",
+    image: "/Muzer-mock6.png",
     link: "https://project-6-eight-theta.vercel.app/",
     github: "https://github.com/Sagar-006/muzer",
-    description:
-      "A sleek and responsive landing page designed for modern startups to showcase their products effectively.",
-    technologies: ["nextjs-light.svg", "tailwind.svg", "ts.svg", "postgresql.svg"],
-  },
-  {
-    projectname: "Nex-Store",
-    image: "/images/profile.avif",
-    link: "https://nex-store-fht5.onrender.com/",
-    github: "https://github.com/Sagar-006/Nex-Store-Backend",
-    description:
-      "A responsive e-commerce platform built with the MERN stack, focused on seamless product browsing and cart management.",
+    description:"Music streaming app allowing users to add songs, vote together, and play the highest-voted song.",
     technologies: [
-      "React.svg",
+      "nextjs-light.svg",
       "tailwind.svg",
       "ts.svg",
-      "nodejs-icon.svg",
-      "mongo.svg",
+      "postgresql.svg",
     ],
   },
   {
     projectname: "Excalidraw",
-    image: "/images/profile.avif",
+    image: "/Excalidraw-mock.png",
     link: "https://github.com/Sagar-006",
     github: "https://github.com/Sagar-006/excalidraw",
     description:
@@ -170,7 +132,7 @@ export const projects = [
   },
   {
     projectname: "Nex-Store",
-    image: "/images/profile.avif",
+    image: "/Nex-store-mock6.png",
     link: "https://github.com/Sagar-006",
     github: "https://github.com/Sagar-006",
     description:
@@ -263,13 +225,13 @@ export const social = [
 
 export const skills = [
   {
-    title: "Web Design",
+    title: "Next.js",
   },
   {
     title: "Front-end development",
   },
   {
-    title: "Web Animations",
+    title: "Typescript",
   },
   {
     title: "Full-stack development",
@@ -278,7 +240,7 @@ export const skills = [
     title: "REST APIS",
   },
   {
-    title: "Next.js",
+    title: "Web animations",
   },
 ];
 

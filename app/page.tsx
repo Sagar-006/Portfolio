@@ -8,17 +8,19 @@ export default function Home() {
       <Container
         className="
           min-h-screen
-          py-6
+          py-8
+          pl-18
           flex
           flex-col md:flex-row
-          gap-6
+          gap-2
           bg-gray-100
           dark:bg-black
           border-gray-200
           dark:border-gray-800
+           
         "
       >
-        {/* LEFT SECTION */}
+        
         <div
           className="
             w-[370px] h-[166px] sticky top-0
@@ -30,7 +32,7 @@ export default function Home() {
           <Left />
         </div>
 
-        {/* RIGHT SECTION */}
+        
         <div className="flex-1 ">
           <Right />
         </div>

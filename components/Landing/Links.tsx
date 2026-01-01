@@ -1,6 +1,6 @@
 "use client";
 
-import { links, social } from "@/config/Hero";
+import {  social } from "@/config/Hero";
 import { Container } from "../common/Container";
 import { Heading } from "../Ui/Heading";
 import Link from "next/link";

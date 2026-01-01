@@ -1,5 +1,4 @@
 "use client";
-
 import { About } from "../Landing/About";
 import { TechStack } from "../Landing/TechStack";
 import { Skills } from "../Landing/Skills";
@@ -9,7 +8,6 @@ import { Education } from "../Landing/Education";
 import { Links } from "../Landing/Links";
 import { Quote } from "../Landing/Quote";
 import { motion } from "framer-motion";
-import { Cpage } from "../Landing/Cpage";
 
 
 const reveal = {
