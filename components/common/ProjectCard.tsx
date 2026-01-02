@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FiLink, FiGithub } from "react-icons/fi";
+import { WobbleCard } from "../Ui/wobble-card";
 
 type projectData = {
   projectname: string;
@@ -34,13 +35,17 @@ export function ProjectCard({ projectData }: { projectData: projectData }) {
             {projectData.projectname}
           </h1>
           <div className="flex gap-x-2 mr-4">
-            <Link
+            <div>
+              {
+                projectData.link ? <Link
               target="_blank"
               rel="noopener noreferrer"
               href={projectData.link}
             >
               <FiLink />
-            </Link>
+            </Link> : null
+              }
+            </div>
             <Link
               target="_blank"
               rel="noopener noreferrer"

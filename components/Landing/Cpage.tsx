@@ -38,6 +38,8 @@ export  function Cpage() {
       body: JSON.stringify(formData),
     });
 
+    alert("I will contact you soon")
+
     setFormData({
       name: "",
       phone: "",

@@ -60,7 +60,7 @@ export function Left() {
           <div className="flex flex-col items-center  ">
             <div>
               <Link
-                href="sagar_resume_01.pdf"
+                href="Sagar's.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

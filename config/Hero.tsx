@@ -107,7 +107,8 @@ export const projects = [
     image: "/Muzer-mock6.png",
     link: "https://project-6-eight-theta.vercel.app/",
     github: "https://github.com/Sagar-006/muzer",
-    description:"Music streaming app allowing users to add songs, vote together, and play the highest-voted song.",
+    description:
+      "Music streaming app allowing users to add songs, vote together, and play the highest-voted song.",
     technologies: [
       "nextjs-light.svg",
       "tailwind.svg",
@@ -118,7 +119,7 @@ export const projects = [
   {
     projectname: "Excalidraw",
     image: "/Excalidraw-mock.png",
-    link: "https://github.com/Sagar-006",
+    link: "",
     github: "https://github.com/Sagar-006/excalidraw",
     description:
       "A real-time collaborative drawing app built with React and WebSockets, enabling multiple users to collaborate in shared rooms.",
@@ -133,8 +134,8 @@ export const projects = [
   {
     projectname: "Nex-Store",
     image: "/Nex-store-mock6.png",
-    link: "https://github.com/Sagar-006",
-    github: "https://github.com/Sagar-006",
+    link: "https://nex-store-fht5.onrender.com/",
+    github: "https://github.com/Sagar-006/Nex-Store-Backend",
     description:
       "A dynamic, animation-focused landing page highlighting creative transitions and interactive elements.",
     technologies: [
@@ -286,6 +287,26 @@ export const quotes = [
   {
     title: "Belive in Yourself!",
     author: "Don't Know.",
+  },
+  {
+    title: "It always seems impossible until it’s done.",
+    author: "Nelson Mandela",
+  },
+  {
+    title: "In the end, we only regret the chances we didn’t take.",
+    author: "Lewis Carroll",
+  },
+  {
+    title: "Code is like humor. When you have to explain it, it’s bad.",
+    author: "Cory House",
+  },
+  {
+    title: "The best way to predict the future is to create it.",
+    author: "Peter Drucker.",
+  },
+  {
+    title: "First, solve the problem. Then, write the code.",
+    author: "John Johnson.",
   },
   {
     title: "The magic your looking for is in the work you're avoiding!",
