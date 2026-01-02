@@ -1,13 +1,13 @@
-// LenisProvider.tsx
-"use client";
+// // LenisProvider.tsx
+// "use client";
 
-import React from "react";
-import { Lenis as ReactLenis } from "@studio-freight/react-lenis";
+// import React from "react";
+// import { Lenis as ReactLenis } from "@studio-freight/react-lenis";
 
-type Props = {
-  children: React.ReactNode;
-};
+// type Props = {
+//   children: React.ReactNode;
+// };
 
-export function LenisProvider({ children }: Props) {
-  return <ReactLenis root>{children}</ReactLenis>;
-}
+// export function LenisProvider({ children }: Props) {
+//   return <ReactLenis root>{children}</ReactLenis>;
+// }

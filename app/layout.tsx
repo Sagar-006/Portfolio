@@ -3,7 +3,7 @@ import { Geist, Geist_Mono, Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/common/ThemeProviders";
 import { ViewTransitions } from "next-view-transitions";
-import { LenisProvider } from "@/components/common/LenisProviders";
+// import { LenisProvider } from "@/components/common/LenisProviders";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,7 +47,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <LenisProvider>{children}</LenisProvider>
+            {children}
           </ThemeProvider>
         </body>
       </html>
