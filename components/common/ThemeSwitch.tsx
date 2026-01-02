@@ -2,11 +2,10 @@
 
 import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
-import React, { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
-import Moon from "../svgs/Moon";
-import Sun from "../svgs/Sun";
-import { Button } from "../ui/button";
+import { Button } from "../Ui/Button";
+import { Sun,Moon } from "lucide-react";
 
 export const useThemeToggle = ({
   variant = "circle",
