@@ -47,7 +47,9 @@ export function Left() {
         <div className="hidden md:flex border bg-white dark:bg-black text-black dark:text-white border-gray-200 dark:border-gray-800 flex-col gap-y-2.5 px-2 py-2 w-full rounded-xl">
           <div className="text-sm flex items-center gap-x-1">
             <TbWorld />
-            <p className="weight-">InstantDesign.com</p>
+            <Link href={"https://sagarb.vercel.app/"}>
+              <p className="weight-">sagarb.com</p>
+            </Link>
           </div>
           <div className="flex text-sm items-center gap-x-1">
             <FiSmartphone />
