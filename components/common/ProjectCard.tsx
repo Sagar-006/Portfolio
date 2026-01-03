@@ -14,7 +14,7 @@ type projectData = {
 
 export function ProjectCard({ projectData }: { projectData: projectData }) {
   return (
-    <div className="relative w-[280px] h-[350px] rounded-xl p-4 border bg-white  text-black dark:bg-black dark:text-white  dark:border-gray-800 ">
+    <div className="relative w-[280px] h-[350px] rounded-xl p-4 border bg-white  text-black dark:bg-black dark:text-white  dark:border-gray-800 transition-transform duration-300 ease-in-out hover:scale-104 ">
       
 
       <div className="flex flex-col gap-y-2 relative z-10">
