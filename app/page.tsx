@@ -4,7 +4,7 @@ import { Right } from "@/components/common/Right";
 
 export default function Home() {
   return (
-    <div className="w-full md:flex md:justify-center md:m-2  bg-gray-100 md:min-h-screen border  text-black dark:bg-black dark:text-white border-blue-800 ">
+    <div className="w-full md:flex md:justify-center md:m-2  bg-gray-100 md:min-h-screen border  text-black dark:bg-black dark:text-white  ">
       <Container
         className="
         

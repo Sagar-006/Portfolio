@@ -17,14 +17,15 @@ import { IoReorderThreeOutline } from "react-icons/io5";
 import {useState} from 'react'
 import { IoIosClose } from "react-icons/io";
 // import { ContactDetails } from "../Ui/ContactDetails";
-import {ContactInfo} from '../Ui/ContactInfo'
+import {ContactInfo} from '../Ui/ContactInfo';
+import { AnimatedThemeTogglerDemo } from "../common/AnimatedThemerTogglerDemo";
 
 
 
 export function Left() {
   const [icon,setIcon] = useState<boolean>(false);
   return (
-    <div className=" main sticky top-0 md:top-6  rounded-2xl w-full   md:w-52 h-auto md:h-48  tracking-tighter leading-tight flex flex-col  md:flex-col gap-y-1 md:gap-y-2 items-center">
+    <div className=" main sticky top-0 md:top-6  rounded-2xl w-full   md:w-52 h-auto md:h-48  tracking-tighter leading-tight flex flex-col  md:flex-col gap-y-0 md:gap-y-2 items-center">
       <div className="  first-child w-full md:h-auto h-[166px]  bg-white text-black dark:bg-black dark:text-white border-gray-200 dark:border-gray-800 flex   md:flex-col gap-y-2.5 p-2  md:p-2 rounded-xl  border">
         <div className=" md:h-auto min-h-[155px]   text-center  md:w-full flex px-1">
           <Image
@@ -41,15 +42,18 @@ export function Left() {
             <h1 className="text-[22px] md:text-[24px]  px-1 font-semibold text-shadow-amber-50 ">
               Hello I'm <br /> <TypeAnime />
             </h1>
-            <div
-              className="  md:hidden  min-w-[32px] min-h-[32px] pl-2"
-              onClick={() => setIcon((prev) => !prev)}
-            >
-              {icon ? (
-                <IoIosClose className="text-2xl" />
-              ) : (
-                <IoReorderThreeOutline className="text-2xl" />
-              )}
+            <div className="flex flex-col gap-y-1 md:hidden min-w-[32px] min-h-[32px] pl-2">
+              <div onClick={() => setIcon((prev) => !prev)}>
+                {icon ? (
+                  <IoIosClose className="text-2xl" />
+                ) : (
+                  <IoReorderThreeOutline className="text-2xl" />
+                )}
+              </div>
+
+              <div className={`${icon ? "block" : "hidden"} w-6 h-6`}>
+                <AnimatedThemeTogglerDemo />
+              </div>
             </div>
           </div>
 
