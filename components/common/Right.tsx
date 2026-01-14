@@ -11,16 +11,16 @@ import { motion } from "framer-motion";
 
 
 const reveal = {
-  initial: { opacity: 0, y: 40 },
+  initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
-  transition: { duration: 0.7 },
-  viewport: { once: false, amount: 0.1 },
+  transition: { duration: 0.6, },
+  viewport: { once: true, amount: 0.2 },
 };
 
 
 export function Right() {
   return (
-    <div className="flex-1 w-full">
+    <div className="flex-1 w-full mt-2">
       <div className="min-h-screen w-full md:max-w-[600px]">
         <div className="w-full flex flex-col gap-y-4">
           <motion.section {...reveal}>

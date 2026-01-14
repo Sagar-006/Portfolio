@@ -51,7 +51,7 @@ export  function Cpage() {
   }
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen md:p-0 p-6 bg-background text-foreground">
       <Container className="py-8 sm:py-12 lg:py-16">
         {/* Header */}
         <div className="text-center mb-6 sm:mb-8">

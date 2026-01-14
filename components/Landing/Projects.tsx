@@ -6,7 +6,7 @@ import { ProjectCard } from "../common/ProjectCard";
 
 export default function Projects() {
   return (
-    <div className=" border border-red-600  flex flex-col pb-2  gap-y-8 pt-2 text-sm md:text-lg ">
+    <div className="  flex flex-col pb-2  gap-y-8 pt-2 text-sm md:text-lg ">
       <Heading className="px-3 border  py-0.5 text-sm bg-gray-100 text-black dark:bg-black dark:text-white border-gray-200 dark:border-gray-800 ">
         PROJECTS
       </Heading>
